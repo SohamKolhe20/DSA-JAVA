@@ -1,4 +1,4 @@
-package Basics;
+package Arrays.Basics;
 
 import java.util.Scanner;
 public class Maximumofarray {

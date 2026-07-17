@@ -1,4 +1,4 @@
-package Basics;
+package Arrays.Basics;
 
 public class Swapalternateelement {
     static int[] Swap(int[] arr){
