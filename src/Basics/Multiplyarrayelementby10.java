@@ -1,3 +1,5 @@
+package Basics;
+
 public class Multiplyarrayelementby10 {
     static boolean mD(int[] arr , int tar ){
         for (int i : arr){

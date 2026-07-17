@@ -1,3 +1,5 @@
+package Basics;
+
 public class Arrayintersection {
     static int[] Inter(int[] arr, int[] brr){
         int[] ans = new int[arr.length];

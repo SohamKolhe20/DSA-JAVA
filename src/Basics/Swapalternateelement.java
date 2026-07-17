@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+package Basics;
 
 public class Swapalternateelement {
     static int[] Swap(int[] arr){
