@@ -11,9 +11,13 @@ public class HighLowFreqelement {
         for(int i : arr){
             table.put(i, table.getOrDefault( i ,0)+1);
         }
+        System.out.println();
+        System.out.println("HashMap representation");
+        System.out.println("Keys " + " Values");
         for(int i : table.keySet()){
-            System.out.println( i + "->" + table.get(i));
+            System.out.println( " " + i + "  ->   " + table.get(i));
         }
+        System.out.println("------------------------------------------------");
 
         int Maxkey = -1, Minkey = -1;
         int MaxValue = -1 , MinValue = -1;
