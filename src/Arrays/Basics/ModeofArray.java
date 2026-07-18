@@ -9,18 +9,34 @@ import java.util.HashMap;
 
 public class ModeofArray {
 
-    static void mode(int[] arr){
+    static int mode(int[] arr){
         HashMap<Integer, Integer> table = new HashMap<>();
         for(int i : arr){
             table.put(i, table.getOrDefault( i ,0)+1);
         }
+
         for(int i : table.keySet()){
             System.out.println( i + "->" + table.get(i));
         }
+        System.out.println( );
+        System.out.print("Mode of Array = ");
+        int Maxkey = -1;
+        int MaxValue = -1;
+        for (int key : table.keySet()){
+            int Currentkey = key;
+            int Currentvalue = table.get(key);
+            if (Currentvalue > MaxValue){
+                Maxkey = Currentkey;
+                MaxValue = Currentvalue;
+            }
+        }
+        return Maxkey;
+
     }
 
     public static void main(String[] args) {
         int[] arr = {2,3,4,2,2,4,3,3,3,5};
-        mode(arr);
+
+        System.out.println(mode(arr));
     }
 }
