@@ -30,16 +30,20 @@ public class TransposeofMatrix {
         System.out.println("Columns in 2d array");
         int n = sc.nextInt();
         int[][] matrix = new int[m][n] ;
-        System.out.println(" Give Matrix elements");
-        for(int row = 0 ; row < m ; row++){
-            for(int col = 0 ; col < n ; col++){
-                matrix [row][col] = sc.nextInt();
+        if(matrix == null || matrix.length == 0)
+            System.out.println(" Not possible ");
+        else {
+            System.out.println(" Give Matrix elements");
+            for (int row = 0; row < m; row++) {
+                for (int col = 0; col < n; col++) {
+                    matrix[row][col] = sc.nextInt();
+                }
             }
-        }
-        int[][] answer = transpose(matrix);
-        for(int row = 0 ; row < answer.length ; row++){
-            for(int col = 0 ; col < answer[0].length ; col++){
-                System.out.print(answer[row][col] + " ");
+            int[][] answer = transpose(matrix);
+            for (int row = 0; row < answer.length; row++) {
+                for (int col = 0; col < answer[0].length; col++) {
+                    System.out.print(answer[row][col] + " ");
+                }
             }
         }
 
