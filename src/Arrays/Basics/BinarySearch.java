@@ -1,5 +1,4 @@
 package Arrays.Basics;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 // In Binary Search we divide the Array in three parts, Middle, Left and Right
 public class BinarySearch {
