@@ -1,9 +1,9 @@
-package Arrays.Basics.UniqueNo;
+package Arrays.Basics;
 
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class ofOccurence {
+public class UniqueNoofOccurence {
         static boolean uniqueOccurrences(int[] arr) {
             HashMap<Integer, Integer> uniq = new HashMap<>();
             int n = arr.length;
