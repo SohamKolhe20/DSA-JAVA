@@ -1,4 +1,4 @@
-package Arrays.Basics;
+package Array.Basics;
 import java.util.Scanner;
 // In Binary Search we divide the Array in three parts, Middle, Left and Right
 public class BinarySearch {

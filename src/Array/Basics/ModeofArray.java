@@ -3,7 +3,7 @@
 // -> Here Mode means Frequency of elements in an array and mainly Mode is the element with Highest Frequency.
 // To find out the frequency of elements in an array, we generally use HASHMAP structure in problem. As it used in the form of Keys and its Values .
 
-package Arrays.Basics;
+package Array.Basics;
 
 import java.util.HashMap;
 

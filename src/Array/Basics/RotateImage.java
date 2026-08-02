@@ -1,4 +1,4 @@
-package Arrays.Basics;
+package Array.Basics;
 // Rotate Image - Rotate matrix of dimensions nxn by 90deg
 import java.util.Scanner;
 // Sol

@@ -1,4 +1,4 @@
-package Arrays.Basics;
+package Array.Basics;
 
 public class PivotofRotatedArray {
     static int rotated(int[] arr){

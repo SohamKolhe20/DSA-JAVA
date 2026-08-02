@@ -1,4 +1,4 @@
-package Arrays.Basics;
+package Array.Basics;
 
 public class Arrayintersection {
     static int[] Inter(int[] arr, int[] brr){

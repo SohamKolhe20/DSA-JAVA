@@ -1,4 +1,4 @@
-package Arrays.Basics;
+package Array.Basics;
 import java.util.Scanner;
 public class PeakElementMountainArray {
     static int peak(int[] arr){

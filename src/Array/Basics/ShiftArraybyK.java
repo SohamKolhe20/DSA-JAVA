@@ -1,4 +1,4 @@
-package Arrays.Basics;
+package Array.Basics;
 
 public class ShiftArraybyK {
     static void shift (int[] arr , int k ){

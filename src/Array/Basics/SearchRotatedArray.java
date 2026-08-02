@@ -1,6 +1,5 @@
-package Arrays.Basics;
+package Array.Basics;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class SearchRotatedArray {

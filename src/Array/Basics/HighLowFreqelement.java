@@ -2,7 +2,7 @@
 // Identify the elements with Highest and Lowest Frequency.
 // Similar to the Mode of the Array, we will use HashMap here to store elements as keys and their repetition as values.
 
-package Arrays.Basics;
+package Array.Basics;
 import java.util.HashMap;
 
 public class HighLowFreqelement {
@@ -38,7 +38,7 @@ public class HighLowFreqelement {
     }
 
     public static void main(String[] args) {
-        int[] arr = {2,3,4,2,2,4,3,3,3,5};
+        int[] arr = {2,3,4,2,2,4,3,3,3,5,5,5,5,5,5,6,6,6,3,3,3,6,6,6,6,9};
         int[] answer = mode(arr);
         System.out.println("Highest frequency = " + answer[0]);
         System.out.println("Lowest frequency = " + answer[1]);

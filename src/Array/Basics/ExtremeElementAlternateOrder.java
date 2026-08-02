@@ -1,7 +1,7 @@
 
 // Print Extreme Elements in an Alternate Manner.
 
-package Arrays.Basics;
+package Array.Basics;
 
 public class ExtremeElementAlternateOrder {
     static void alternate(int[] arr){

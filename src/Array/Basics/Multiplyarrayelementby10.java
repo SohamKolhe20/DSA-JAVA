@@ -1,4 +1,4 @@
-package Arrays.Basics;
+package Array.Basics;
 
 public class Multiplyarrayelementby10 {
     static boolean mD(int[] arr , int tar ){
