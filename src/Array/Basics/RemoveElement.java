@@ -18,5 +18,5 @@ public class RemoveElement {
         int val = 4;
         System.out.println(removeElement(nums,val));
     }
-    }
+}
 
