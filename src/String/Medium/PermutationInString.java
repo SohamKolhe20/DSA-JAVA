@@ -1,4 +1,4 @@
-package String;
+package String.Medium;
 
 public class PermutationInString {
     static boolean compFreq(int[] count1, int[] count2) {
